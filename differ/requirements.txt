@@ -1,4 +1,3 @@
 pyndiff
 requests
-bs4
 flask
