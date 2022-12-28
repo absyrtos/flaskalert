@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Wed Dec 28 04:35:52 2022 as: nmap -iL /home/absy/proje/differ/differ/ip_addreses/iplist.txt -p 80 -Pn -oX /home/absy/proje/differ/differ/scans/scan_28-12-2022_04:35:52.xml -->
+<nmaprun scanner="nmap" args="nmap -iL /home/absy/proje/differ/differ/ip_addreses/iplist.txt -p 80 -Pn -oX /home/absy/proje/differ/differ/scans/scan_28-12-2022_04:35:52.xml" start="1672220152" startstr="Wed Dec 28 04:35:52 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1672220152" endtime="1672220154"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="20.166.16.220" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+</host>
+<runstats><finished time="1672220154" timestr="Wed Dec 28 04:35:54 2022" summary="Nmap done at Wed Dec 28 04:35:54 2022; 1 IP address (1 host up) scanned in 2.16 seconds" elapsed="2.16" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
